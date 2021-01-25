@@ -9,6 +9,7 @@ typedef struct no {
 	char matricula[6];
 	struct no* next;
 } No;
+
 typedef No *HashTableC[SIZE];
 
 int hash (char matricula[6]){
